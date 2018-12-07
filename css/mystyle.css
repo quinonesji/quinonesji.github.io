@@ -1,0 +1,349 @@
+/*RESET CSS BEGIN*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    /*line-height: 1;*/
+    /*font-family: 'Montserrat', sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Advent Pro', sans-serif;*/
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+/*RESET CSS END*/
+
+
+
+
+/*Nav bar style begin */
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,0.8);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+
+/*
+.fa-facebook {
+    color: rgba(0,0,0,0.8);
+}
+
+.fa-twitter {
+    color: rgba(0,0,0,0.8);
+}
+.fa-instagram {
+    color: rgba(0,0,0,0.8);
+}
+.fa-pinterest {
+    color: rgba(0,0,0,0.8);
+}
+.fa-tumblr {
+    color: rgba(0,0,0,0.8);
+}
+.fa-youtube {
+    color: rgba(0,0,0,0.8);
+}
+*/
+
+.navbar-light .navbar-nav .nav-link .fa-facebook {
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link .fa-twitter {
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link .fa-instagram {
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link .fa-pinterest {
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link .fa-tumbler {
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link .fa-youtube {
+    font-size: 1rem;
+}
+
+.fa-search {
+    margin-right:5px;
+    color:rgba(0,0,0,0.8);
+}
+
+.fa-user {
+    margin-right:5px;
+    color:rgba(0,0,0,0.8);
+}
+.fa-shopping-cart {
+    margin-right:5px;
+    color:rgba(0,0,0,0.8);
+}
+
+#site-nav {
+    padding: 15px 0;
+}
+
+#site-nav .nav-item a {
+    padding: 15px 45px;
+}
+
+/* Navbar style end*/
+
+
+.cover-main {
+  background: url('../images/hero-bg.jpg') right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+
+.fa-angle-down {
+    margin-left: 7px;
+}
+
+#two-images-alone {
+    text-align: center;
+    padding: 40px 40px;
+}
+#new-releases {
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#new-releases h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 10px;
+    margin-bottom: 25px;
+}
+
+#new-releases img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#new-releases button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* Pagination styles being */
+.pagination {
+/*  display: inline-block;*/
+}
+
+.pagination a {
+  color: black;
+/*  float: left;*/
+  padding: 0 10px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  font-size: 12px
+}
+
+.pagination a.remove-box-border {
+    font-size: 12px;
+    margin-right: 10px;
+    padding: 0;
+    border: none;
+    
+}
+
+.pagination a.remove-box-border:hover:not(.active) {background-color: white;}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+/* Pagination styles end */
+
+#product-details  {
+ text-align: center;   
+}
+
+#follow-instagram {
+    text-align: center;
+/*    padding: 15px 15px;*/
+}
+
+#follow-instagram h3 b {
+    font-weight: 700;
+}
+
+footer {
+    background-color: rgba(0,0,0,.65);
+    padding: 15px 0;
+}
+
+footer h3 {
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer .nav .nav-item {
+    margin-bottom: 15px;
+}
+
+footer .nav-item p {
+    color: white;
+}
+
+
+footer .nav .nav-item a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+}
+
+footer .nav .nav-item a.email {
+    color:white;
+}
+
+footer #final-row p {
+    font-size:10px;
+}
+
+footer #final-row p span {
+    color:white;
+}
+
+#one-images-alone  {
+    text-align: center;
+    padding: 15px 15px;
+}
